@@ -41,12 +41,14 @@ body {
     text-align: center;
     cursor: grab;
 }
+
 .item:active {
     cursor: grabbing;
 }
+
 .placeholder {
-width: 150px;
-height: 100px;
+    width: 150px;
+    height: 100px;
 
 }
 
@@ -57,12 +59,16 @@ height: 100px;
 .progress {
     background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
 }
+
 .done {
     background: linear-gradient(90deg, #84fab0 0%, #68e0cf 100%);
 }
 
 .hold {
-    border: 5px solid #eee;
+    border: 2px solid #f72af126;
+    background-color: rgba(0, 0, 0, .2);
+    top: 0;
+    left: 0;
 }
 
 .hide {
@@ -70,5 +76,10 @@ height: 100px;
 }
 
 .hovered {
-    border-top: 2px solid #8ed7ed;
+    border: 2px dashed rgb(66, 92, 184);
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 0.4500393907563025) 100%);
+    width: 150px;
+    height: 66px;
+
 }
