@@ -48,7 +48,8 @@ body {
 
 .placeholder {
     width: 150px;
-    height: 100px;
+    height: 66px;
+    border-radius: 20px;
 
 }
 
